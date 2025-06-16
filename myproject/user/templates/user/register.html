@@ -6,4 +6,9 @@ register
 
 {% block content %}
 <h1>Register</h1>
+<form action="" method="post">
+    {% csrf_token %}
+    {{ form }}
+    <button type="submit">submit</button>
+</form>
 {% endblock  %}

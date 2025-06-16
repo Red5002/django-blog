@@ -38,6 +38,7 @@ main{
 
 h1{
     margin-left: 10px;
+    font-size: 2.5rem;
 }
 
 article{
@@ -89,4 +90,47 @@ a:hover{
     display: block;
     width: 100%;
     max-width: 800px;
+}
+
+.title{
+    font-size: 4rem;
+    margin-top: 30px 0px;
+}
+form{
+    font-size: 0.8rem;
+    color: gray;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+form button{
+    background-color: #068152;
+    color: white;
+    padding: 5px 10px;
+    font-size: 1rem;
+    border-radius: 20px;
+    border: none;
+    margin-top: 10px;
+}
+
+form input{
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    height: 40px;
+    font-size: 1rem;
+}
+
+form label{
+    font-size: 2rem;
+    color: white;
+}
+
+.errorlist li{
+    color: red;
+}
+
+.helptext{
+    display: none;
 }
