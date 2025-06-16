@@ -128,9 +128,13 @@ form label{
 }
 
 .errorlist li{
+    margin-left: 20px;
     color: red;
 }
 
+.errorlist li::marker{
+    content: '⚠  ';
+}
 .helptext{
     display: none;
 }

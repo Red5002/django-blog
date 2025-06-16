@@ -13,9 +13,10 @@
 </head>
 <body>
     <nav>
-        <a href="/">Home🏠</a>|
-        <a href="/about">About😎</a>|
-        <a href="{% url 'posts:list' %}">Posts📰</a>|
+        <a href="/" title="home">Home🏠</a>|
+        <a href="/about" title="about">About😎</a>|
+        <a href="{% url 'posts:list' %}" title="posts">Posts📰</a>|
+        <a href="{% url 'user:register' %}" title="registration">Sign up🚀</a>|
     </nav>
     <main>
         {% block content %}
