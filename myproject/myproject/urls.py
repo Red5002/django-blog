@@ -25,6 +25,7 @@ urlpatterns = [
     path('', views.homepage),
     path('about/', views.aboutpage ),
     path('posts/', include('posts.urls') ),
+     path('user/', include('user.urls') ),
     
 ]
 
