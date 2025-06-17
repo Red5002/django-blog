@@ -6,7 +6,7 @@ login
 
 {% block content %}
 <h1>login</h1>
-<form action="" method="post">
+<form action="{% url 'user:login' %}" method="post">
     {% csrf_token %}
     {{ form }}
     {%  if request.GET.next %}
